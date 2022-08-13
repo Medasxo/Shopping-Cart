@@ -1,5 +1,6 @@
 import "../App.css";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <div className="mainHome">
         <h2>Porsche</h2>
         <h4>There Is No Substitute</h4>
+        <Link to="/shop">
         <button type="button" className="shopButton">SHOP</button>
+        </Link>
       </div>
       
     </div>
