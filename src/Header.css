@@ -7,7 +7,7 @@
 .porsche {
   display: flex;
   align-items: center;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .porsche img {
@@ -16,14 +16,23 @@
 }
 
 .links {
-   font-size: 24px;
-   display: flex;
-   align-items: center;
-   gap: 3rem;
-   margin-right: 2rem;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 2rem;
 }
 
 .links img {
   width: 2rem;
   height: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
 }
