@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.porsche {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+.porsche img {
+  width: 7rem;
+  height: 3rem;
+}
+
+.links {
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+   margin-right: 2rem;
+}
+
+.links img {
+  width: 2rem;
+  height: 2rem;
+}

@@ -9,6 +9,6 @@ const RouteSwitch = () => {
       </Routes>
       </BrowserRouter>  
     );
-}
+};
 
 export default RouteSwitch;
