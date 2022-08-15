@@ -1,6 +1,7 @@
 import "../Shop.css";
 import Header from "./Header";
 import Car from "./Car";
+import CartCircle from "../img/shopCircle.png";
 
 import Boxster from "../img/cars/718boxster.png";
 import Boxster2 from "../img/cars/718boxster2.jpg";
@@ -28,6 +29,7 @@ import Macan from "../img/cars/macan.png";
 import Macan2 from "../img/cars/macan2.jpg";
 import Cayenne from "../img/cars/cayenne.png";
 import Cayenne2 from "../img/cars/cayenne2.jpg";
+import ShoppingCart from "./ShoppingCart";
 
 
 
@@ -57,6 +59,7 @@ function Shop() {
             return <Car name={car.name} img={car.img} img2={car.img2}/>;
           })}
         </div>
+        <img src={CartCircle} className="cartCircle"/>
       </div>
     </div>
   );
