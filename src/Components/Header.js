@@ -1,9 +1,16 @@
 import porscheLogo from "../img/porscheLogo.png";
 import cartIcon from "../img/cartIcon.png";
+import ShoppingCart from "./ShoppingCart";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Header.css";
 
 function Header() {
+  const [isShown, setIsShown] = useState(false);
+  const handleClick = event => {
+    // 👇️ toggle shown state
+    setIsShown(current => !current);
+  };
   return (
     <nav className="header">
       <div className="porsche">
@@ -17,7 +24,8 @@ function Header() {
         <Link to = '/shop'>
         <p>Shop</p>
         </Link>
-        <img src={cartIcon} alt="cart icon" />
+        <img src={cartIcon} alt="cart icon" onClick={handleClick}/>
+        {isShown && <ShoppingCart />}
       </div>
     </nav>
   );
