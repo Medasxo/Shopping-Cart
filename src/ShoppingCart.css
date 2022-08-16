@@ -9,6 +9,7 @@
   width: 30%;
   background-color: black;
   right: 0;
+  z-index: 1;
 }
 
 .shoppingCart .exitButton {
