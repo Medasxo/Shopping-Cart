@@ -32,7 +32,8 @@ import Cayenne2 from "../img/cars/cayenne2.jpg";
 
 
 function Shop() {
-  const [carInCart, setCarInCart] = useState(1);
+  const [carInCartCount, setCarInCartCount] = useState(0);
+  const [carsInCart, setCarsInCart] = useState([]);
 
   const cars = [
     { name: "Porsche 718 Boxster", img: Boxster, img2: Boxster2},
@@ -49,17 +50,17 @@ function Shop() {
     { name: "Porsche Cayenne", img: Cayenne, img2: Cayenne2},
   ];
 
-  function incrementCarInCart(){
-    setCarInCart(carInCart + 1);
-    console.log(carInCart);
+  function incrementCarInCartCount(){
+    setCarInCartCount(carInCartCount + 1);
+    console.log(carsInCart);
   }
   return (
     <div className="shop">
-      <Header />
+      <Header carCount={carInCartCount} carsInCart = {carsInCart}/>
       <div className="shopContent">
         <div className="shopGrid">
           {cars.map((car) => {
-            return <Car name={car.name} img={car.img} img2={car.img2} incrementCart={incrementCarInCart}/>;
+            return <Car name={car.name} img={car.img} img2={car.img2} incrementCart={incrementCarInCartCount} setCarsInCart={setCarsInCart}/>;
           })}
         </div>
         <img src={CartCircle} className="cartCircle"/>

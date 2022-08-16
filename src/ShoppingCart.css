@@ -12,3 +12,14 @@
   right: 0.5rem;
   top: 0.5rem;
 }
+
+.shoppingHeader{
+  background-color: gray;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.listItem{
+  color: white;
+}

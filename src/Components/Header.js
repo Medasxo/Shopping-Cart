@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Header.css";
 
-function Header() {
+function Header(props) {
   const [isShown, setIsShown] = useState(false);
   const handleClick = event => {
     setIsShown(current => !current);
@@ -24,7 +24,7 @@ function Header() {
         <p>Shop</p>
         </Link>
         <img src={cartIcon} alt="cart icon" onClick={handleClick}/>
-        {isShown && <ShoppingCart cartIsShown={handleClick}/>}
+        {isShown && <ShoppingCart cartIsShown={handleClick} carCount={props.carCount} carsInCart={props.carsInCart}/>}
       </div>
     </nav>
   );

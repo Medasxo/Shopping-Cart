@@ -17,7 +17,7 @@ const Car = (props) => {
         onClick={handleCarClick}
       />
       <h3>{props.name}</h3>
-      {carIsShown && <CarTab hideTab={handleCarClick} img={props.img2} name={props.name} incrementCart={props.incrementCart}/>}
+      {carIsShown && <CarTab hideTab={handleCarClick} img={props.img2} name={props.name} incrementCart={props.incrementCart} setCarsInCart={props.setCarsInCart}/>}
     </div>
   );
 };
