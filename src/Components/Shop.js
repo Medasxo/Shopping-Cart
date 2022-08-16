@@ -19,8 +19,6 @@ import TurboS from "../img/cars/911turboS.png";
 import TurboS2 from "../img/cars/911turboS2.jpg";
 import GT3 from "../img/cars/911gt3.png";
 import GT32 from "../img/cars/911gt32.jpg";
-import TaycanTurismo from "../img/cars/taycanTurismo.png";
-import TaycanTurismo2 from "../img/cars/taycanTurismo2.jpg";
 import PanameraS from "../img/cars/panameraS.png";
 import PanameraS2 from "../img/cars/panameraS2.jpg";
 import PanameraSTurismo from "../img/cars/panameraSTurismo.png";
@@ -29,7 +27,6 @@ import Macan from "../img/cars/macan.png";
 import Macan2 from "../img/cars/macan2.jpg";
 import Cayenne from "../img/cars/cayenne.png";
 import Cayenne2 from "../img/cars/cayenne2.jpg";
-import ShoppingCart from "./ShoppingCart";
 
 
 
@@ -44,7 +41,6 @@ function Shop() {
     { name: "Porsche 911 Turbo S", img: TurboS, img2: TurboS2},
     { name: "Porsche 911 GT3", img: GT3, img2: GT32},
     { name: "Porsche Taycan", img: Taycan, img2: Taycan2 },
-    { name: "Porsche Taycan Turbo Sport Turismo", img: TaycanTurismo, img2: TaycanTurismo2},
     { name: "Porsche Panamera Turbo S", img: PanameraS, img2: PanameraS2},
     { name: "Porsche Panamera Turbo S Sport Turismo", img: PanameraSTurismo, img2: PanameraSTurismo2},
     { name: "Porsche Macan", img: Macan, img2: Macan2},
