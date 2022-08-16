@@ -1,8 +1,14 @@
-.shoppingCart{
-    position: fixed;
-   top: 0;
-   bottom: 0;
-   width: 25%;
-   background-color: black;
-   right: 0;
+.shoppingCart {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 25%;
+  background-color: black;
+  right: 0;
+}
+
+.shoppingCart .exitButton {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
 }

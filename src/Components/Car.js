@@ -6,7 +6,6 @@ const Car = (props) => {
   const [carIsShown, setCarIsShown] = useState(false);
   const handleCarClick = event => {
     setCarIsShown(current => !current);
-    console.log("a");
   };
   return (
     <div className="car">
@@ -18,7 +17,7 @@ const Car = (props) => {
         onClick={handleCarClick}
       />
       <h3>{props.name}</h3>
-      {carIsShown && <CarTab hideTab={handleCarClick} img={props.img2} name={props.name}/>}
+      {carIsShown && <CarTab hideTab={handleCarClick} img={props.img2} name={props.name} incrementCart={props.incrementCart}/>}
     </div>
   );
 };

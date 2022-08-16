@@ -1,9 +1,9 @@
 import "../ShoppingCart.css";
 
-function ShoppingCart() {
+function ShoppingCart(props) {
   return (
     <div className="shoppingCart">
-        
+        <button className="exitButton" onClick={props.cartIsShown}>X</button>
     </div>
   );
 }

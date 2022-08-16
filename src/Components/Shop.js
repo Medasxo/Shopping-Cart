@@ -1,6 +1,7 @@
 import "../Shop.css";
 import Header from "./Header";
 import Car from "./Car";
+import { useState } from "react";
 import CartCircle from "../img/shopCircle.png";
 
 import Boxster from "../img/cars/718boxster.png";
@@ -31,6 +32,7 @@ import Cayenne2 from "../img/cars/cayenne2.jpg";
 
 
 function Shop() {
+  const [carInCart, setCarInCart] = useState(1);
 
   const cars = [
     { name: "Porsche 718 Boxster", img: Boxster, img2: Boxster2},
@@ -46,13 +48,18 @@ function Shop() {
     { name: "Porsche Macan", img: Macan, img2: Macan2},
     { name: "Porsche Cayenne", img: Cayenne, img2: Cayenne2},
   ];
+
+  function incrementCarInCart(){
+    setCarInCart(carInCart + 1);
+    console.log(carInCart);
+  }
   return (
     <div className="shop">
       <Header />
       <div className="shopContent">
         <div className="shopGrid">
           {cars.map((car) => {
-            return <Car name={car.name} img={car.img} img2={car.img2}/>;
+            return <Car name={car.name} img={car.img} img2={car.img2} incrementCart={incrementCarInCart}/>;
           })}
         </div>
         <img src={CartCircle} className="cartCircle"/>

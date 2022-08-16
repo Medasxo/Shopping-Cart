@@ -8,7 +8,6 @@ import "../Header.css";
 function Header() {
   const [isShown, setIsShown] = useState(false);
   const handleClick = event => {
-    // 👇️ toggle shown state
     setIsShown(current => !current);
   };
   return (
@@ -25,7 +24,7 @@ function Header() {
         <p>Shop</p>
         </Link>
         <img src={cartIcon} alt="cart icon" onClick={handleClick}/>
-        {isShown && <ShoppingCart />}
+        {isShown && <ShoppingCart cartIsShown={handleClick}/>}
       </div>
     </nav>
   );
