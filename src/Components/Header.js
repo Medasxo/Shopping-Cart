@@ -23,7 +23,7 @@ function Header(props) {
         <Link to = '/shop'>
         <p>Shop</p>
         </Link>
-        <img src={cartIcon} alt="cart icon" onClick={handleClick}/>
+        <img src={cartIcon} alt="cart icon" className="cartIcon" onClick={handleClick}/>
         {isShown && <ShoppingCart cartIsShown={handleClick} carCount={props.carCount} carsInCart={props.carsInCart}/>}
       </div>
     </nav>

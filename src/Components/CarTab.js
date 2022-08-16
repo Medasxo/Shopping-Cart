@@ -1,7 +1,7 @@
 import {useState} from 'react';
 const CarTab = (props) => {
     const addCarToCart = () => {
-        props.setCarsInCart(current => [...current, {name: props.name, img: props.img}]);
+        props.setCarsInCart(current => [...current, {name: props.name, img: props.img2}]);
         props.incrementCart();
     }
     
