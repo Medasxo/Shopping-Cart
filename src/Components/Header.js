@@ -7,24 +7,34 @@ import "../Header.css";
 
 function Header(props) {
   const [isShown, setIsShown] = useState(false);
-  const handleClick = event => {
-    setIsShown(current => !current);
+  const handleClick = (event) => {
+    setIsShown((current) => !current);
   };
   return (
     <nav className="header">
       <div className="porsche">
         <img src={porscheLogo} alt="porsche logo" />
-        <Link to = '/'>
-        <p>Porsche</p>
+        <Link to="/">
+          <p>Porsche</p>
         </Link>
-        
       </div>
       <div className="links">
-        <Link to = '/shop'>
-        <p>Shop</p>
+        <Link to="/shop">
+          <p>Shop</p>
         </Link>
-        <img src={cartIcon} alt="cart icon" className="cartIcon" onClick={handleClick}/>
-        {isShown && <ShoppingCart cartIsShown={handleClick} carCount={props.carCount} carsInCart={props.carsInCart}/>}
+        <img
+          src={cartIcon}
+          alt="cart icon"
+          className="cartIcon"
+          onClick={handleClick}
+        />
+        {isShown && (
+          <ShoppingCart
+            cartIsShown={handleClick}
+            carCount={props.carCount}
+            carsInCart={props.carsInCart}
+          />
+        )}
       </div>
     </nav>
   );

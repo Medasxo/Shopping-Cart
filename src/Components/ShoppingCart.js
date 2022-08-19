@@ -8,16 +8,22 @@ function ShoppingCart(props) {
       </button>
       <div className="shoppingHeader">Cart({props.carCount} items)</div>
       <div className="listOfCars">
-        {props.carCount === 0?<div className="empty">Shopping cart is empty</div>:props.carsInCart.map((carInCart) => {
-          return (
-            <div className="listItem">
-              <img className="carImg" src={carInCart.img} />
-              {carInCart.name}
-            </div>
-          );
-        })}
+        {props.carCount === 0 ? (
+          <div className="empty">Shopping cart is empty</div>
+        ) : (
+          props.carsInCart.map((carInCart) => {
+            return (
+              <div className="listItem">
+                <img className="carImg" src={carInCart.img} />
+                {carInCart.name}
+              </div>
+            );
+          })
+        )}
       </div>
-      <button type="Button" className="checkout">Proceed To Checkout</button>
+      <button type="Button" className="checkout">
+        Proceed To Checkout
+      </button>
     </div>
   );
 }
