@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Shopping-Cart/static/css/main.73db492c.css",
+    "main.js": "/Shopping-Cart/static/js/main.9da4fc70.js",
+    "static/media/718spyder2.jpg": "/Shopping-Cart/static/media/718spyder2.69924312cf227dedf6a5.jpg",
+    "static/media/panameraSTurismo.png": "/Shopping-Cart/static/media/panameraSTurismo.15d119c73a1987c6327c.png",
+    "static/media/panameraS.png": "/Shopping-Cart/static/media/panameraS.e62ec3e767f8abd9e50c.png",
+    "static/media/718boxster2.jpg": "/Shopping-Cart/static/media/718boxster2.f6a308c783b197e09962.jpg",
+    "static/media/macan.png": "/Shopping-Cart/static/media/macan.b06efb45e26ef586991e.png",
+    "static/media/911targaS.png": "/Shopping-Cart/static/media/911targaS.2f0571e794373a6a723d.png",
+    "static/media/911turboS.png": "/Shopping-Cart/static/media/911turboS.5b704cb79f18855babc3.png",
+    "static/media/718caymanS.png": "/Shopping-Cart/static/media/718caymanS.bb88626a2c8e5319e2e3.png",
+    "static/media/911gt3.png": "/Shopping-Cart/static/media/911gt3.83f37b2ff2adfaf6b372.png",
+    "static/media/taycan.png": "/Shopping-Cart/static/media/taycan.7452cc9babebb8ac6655.png",
+    "static/media/718spyder.png": "/Shopping-Cart/static/media/718spyder.bd39e7806b96ee75bda1.png",
+    "static/media/porscheLogo.png": "/Shopping-Cart/static/media/porscheLogo.37163d29f9e523b3d93d.png",
+    "static/media/911gt32.jpg": "/Shopping-Cart/static/media/911gt32.cea0e0a1e2e1082875a4.jpg",
+    "static/media/homeBackground.jpg": "/Shopping-Cart/static/media/homeBackground.5d26c5b5d91815fb7ad1.jpg",
+    "static/media/macan2.jpg": "/Shopping-Cart/static/media/macan2.f2b5383141fc64a4b80d.jpg",
+    "static/media/taycan2.jpg": "/Shopping-Cart/static/media/taycan2.f8d0529602bd40b77fb6.jpg",
+    "static/media/cayenne.png": "/Shopping-Cart/static/media/cayenne.786ba67b004abf23288d.png",
+    "static/media/shopCircle.png": "/Shopping-Cart/static/media/shopCircle.e1f1737b146f458007e6.png",
+    "static/media/718boxster.png": "/Shopping-Cart/static/media/718boxster.b9500b298dd816e3c91a.png",
+    "static/media/911carreraS.png": "/Shopping-Cart/static/media/911carreraS.7294a16d1841fbb4ffce.png",
+    "static/media/panameraS2.jpg": "/Shopping-Cart/static/media/panameraS2.ebfb38e5a750e2913e3b.jpg",
+    "static/media/911turboS2.jpg": "/Shopping-Cart/static/media/911turboS2.b153dca76c0215dcc066.jpg",
+    "static/media/718caymanS2.jpg": "/Shopping-Cart/static/media/718caymanS2.222a6586dabfd43019f5.jpg",
+    "static/media/911carreraS2.jpg": "/Shopping-Cart/static/media/911carreraS2.01e46aca1b9aed311489.jpg",
+    "static/media/panameraSTurismo2.jpg": "/Shopping-Cart/static/media/panameraSTurismo2.3e037369de2cbd9241bb.jpg",
+    "static/media/911targaS2.jpg": "/Shopping-Cart/static/media/911targaS2.0e38ef071d6526d235cf.jpg",
+    "static/media/cayenne2.jpg": "/Shopping-Cart/static/media/cayenne2.9d00cf45252aac86d375.jpg",
+    "static/media/cartIcon.png": "/Shopping-Cart/static/media/cartIcon.26f0d0c9a82e2ef69345.png",
+    "index.html": "/Shopping-Cart/index.html",
+    "main.73db492c.css.map": "/Shopping-Cart/static/css/main.73db492c.css.map",
+    "main.9da4fc70.js.map": "/Shopping-Cart/static/js/main.9da4fc70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73db492c.css",
+    "static/js/main.9da4fc70.js"
+  ]
+}
